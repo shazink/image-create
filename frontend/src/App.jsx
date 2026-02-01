@@ -14,7 +14,7 @@ function App() {
     setError(null);
 
     try {
-      const res = await fetch("https://image-create-backend.onrender.com", {
+      const res = await fetch("https://image-create-backend.onrender.com/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
